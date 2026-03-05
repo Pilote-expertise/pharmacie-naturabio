@@ -64,10 +64,10 @@
             cart.items.push({
                 id: product.id,
                 name: product.name,
-                brand: product.brand,
+                brand: product.brand || 'Anton & Willem',
                 price: product.price,
                 oldPrice: product.oldPrice,
-                image: product.images ? product.images[0] : 'placeholder.jpg',
+                image: product.image || (product.images ? product.images[0] : 'assets/images/products/i1.jpg'),
                 quantity: quantity
             });
         }
@@ -203,7 +203,7 @@
         cartItemsContainer.innerHTML = cart.items.map(item => `
             <div class="cart-item" data-id="${item.id}">
                 <div class="cart-item-image">
-                    <div class="placeholder-image"></div>
+                    <img src="${item.image}" alt="${item.name}" onerror="this.style.display='none'">
                 </div>
                 <div class="cart-item-info">
                     <h3>${item.name}</h3>
@@ -364,8 +364,9 @@
 
     // ===== Bind Global Events =====
     function bindEvents() {
-        // Add to cart buttons
+        // Add to cart buttons (both data-add-to-cart and .add-to-cart)
         document.addEventListener('click', (e) => {
+            // Method 1: Button with data-add-to-cart JSON
             const addToCartBtn = e.target.closest('[data-add-to-cart]');
             if (addToCartBtn) {
                 e.preventDefault();
@@ -375,6 +376,26 @@
                     addItem(product);
                 } catch (err) {
                     console.error('Invalid product data:', err);
+                }
+                return;
+            }
+
+            // Method 2: Button with .add-to-cart class inside product-card
+            const simpleAddBtn = e.target.closest('.add-to-cart');
+            if (simpleAddBtn) {
+                e.preventDefault();
+                const productCard = simpleAddBtn.closest('.product-card');
+                if (productCard) {
+                    // Extract product data from card attributes or content
+                    const id = productCard.dataset.id || Math.random().toString(36).substr(2, 9);
+                    const name = productCard.dataset.name || productCard.querySelector('.product-name')?.textContent?.trim() || 'Produit';
+                    const priceText = productCard.querySelector('.product-price')?.textContent || '0';
+                    const price = parseFloat(priceText.replace(/[^\d,.-]/g, '').replace(',', '.')) || 0;
+                    const image = productCard.dataset.image || productCard.querySelector('.card-image img')?.src || '';
+                    const brand = productCard.querySelector('.product-brand')?.textContent?.trim() || 'Anton & Willem';
+
+                    const product = { id, name, brand, price, image };
+                    addItem(product);
                 }
             }
         });
