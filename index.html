@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pharmacie Naturabio Nancy - Votre pharmacie naturelle spécialisée en naturopathie, aromathérapie et phytothérapie. Conseil expert et produits naturels de qualité.">
+    <meta name="keywords" content="pharmacie, naturopathie, aromathérapie, phytothérapie, Nancy, produits naturels, huiles essentielles, compléments alimentaires">
+    <meta name="author" content="Pharmacie Naturabio">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Pharmacie Naturabio Nancy - Votre pharmacie naturelle">
+    <meta property="og:description" content="Spécialiste en naturopathie et aromathérapie à Nancy. Conseils personnalisés et produits naturels de qualité.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.pharmacie-naturabio.fr">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+    <title>Pharmacie Naturabio Nancy - Votre pharmacie naturelle</title>
+
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Pharmacy",
+        "name": "Pharmacie Naturabio",
+        "image": "https://www.pharmacie-naturabio.fr/assets/images/pharmacy.jpg",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "10 rue Raugraff",
+            "addressLocality": "Nancy",
+            "postalCode": "54000",
+            "addressCountry": "FR"
+        },
+        "telephone": "+33383350000",
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "14:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "19:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "17:00"
+            }
+        ],
+        "priceRange": "€€"
+    }
+    </script>
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-container">
+                <!-- Logo -->
+                <a href="index.html" class="header-logo">
+                    <div class="placeholder-image" style="width: 45px; height: 45px; border-radius: 50%;"></div>
+                    <div class="header-logo-text">
+                        <span class="header-logo-name">Pharmacie Naturabio</span>
+                        <span class="header-logo-tagline">Anton & Willem</span>
+                    </div>
+                </a>
+
+                <!-- Navigation -->
+                <nav class="nav-main">
+                    <a href="index.html" class="active">Accueil</a>
+                    <a href="equipe.html">Notre Équipe</a>
+                    <a href="boutique.html">Boutique</a>
+                    <a href="actualites.html">Actualités</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="header-actions">
+                    <div class="header-search">
+                        <span class="search-icon">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </span>
+                        <input type="search" placeholder="Rechercher un produit..." aria-label="Rechercher">
+                    </div>
+
+                    <a href="panier.html" class="cart-btn" aria-label="Panier">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count"></span>
+                    </a>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="equipe.html">Notre Équipe</a>
+            <a href="boutique.html">Boutique</a>
+            <a href="actualites.html">Actualités</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero Slideshow -->
+            <section class="hero-slideshow">
+                <div class="hero-slides">
+                    <div class="hero-slide active">
+                        <img src="assets/images/hero/hero-1.jpg" alt="Sirop API-STAR BIO - Meilleur produit Pharma 2026">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="assets/images/hero/hero-2.jpg" alt="45 Huiles essentielles 100% biologiques">
+                    </div>
+                    <div class="hero-slide">
+                        <img src="assets/images/hero/hero-3.jpg" alt="Dynafyt - Vitalité physique et mentale 2026">
+                    </div>
+                </div>
+                <div class="hero-dots">
+                    <button class="hero-dot active" data-slide="0" aria-label="Slide 1"></button>
+                    <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+                    <button class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
+                </div>
+                <button class="hero-arrow hero-arrow-prev" aria-label="Précédent">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15,18 9,12 15,6"></polyline>
+                    </svg>
+                </button>
+                <button class="hero-arrow hero-arrow-next" aria-label="Suivant">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9,18 15,12 9,6"></polyline>
+                    </svg>
+                </button>
+            </section>
+
+            <!-- Marquee Banner -->
+            <section class="marquee">
+                <div class="marquee-content">
+                    <!-- Content will be generated by marquee.js -->
+                    <div class="marquee-item">
+                        <span>Livraison gratuite dès 49€ d'achat</span>
+                    </div>
+                    <div class="marquee-divider"></div>
+                    <div class="marquee-item">
+                        <span>Click & Collect disponible</span>
+                    </div>
+                    <div class="marquee-divider"></div>
+                    <div class="marquee-item">
+                        <span>Conseil expert en aromathérapie</span>
+                    </div>
+                    <div class="marquee-divider"></div>
+                    <div class="marquee-item">
+                        <span>Nouveautés chaque semaine</span>
+                    </div>
+                    <div class="marquee-divider"></div>
+                </div>
+            </section>
+
+            <!-- Hours Section -->
+            <section class="section hours-section">
+                <div class="container">
+                    <div class="hours-grid">
+                        <div class="hours-card">
+                            <div class="hours-status">
+                                <!-- Status will be generated by hours.js -->
+                                <span class="badge badge-open">Ouvert</span>
+                                <span class="hours-message">Jusqu'à 19h00</span>
+                            </div>
+                            <table class="hours-table">
+                                <tr>
+                                    <td class="day">Lundi</td>
+                                    <td class="time">14h - 19h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Mardi</td>
+                                    <td class="time">9h - 19h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Mercredi</td>
+                                    <td class="time">9h - 19h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Jeudi</td>
+                                    <td class="time">9h - 19h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Vendredi</td>
+                                    <td class="time">9h - 19h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Samedi</td>
+                                    <td class="time">9h - 17h</td>
+                                </tr>
+                                <tr>
+                                    <td class="day">Dimanche</td>
+                                    <td class="time">Fermé</td>
+                                </tr>
+                            </table>
+                            <div class="hours-alert">
+                                <!-- Alerts will be generated by hours.js -->
+                            </div>
+                        </div>
+
+                        <div style="padding: var(--spacing-xl);">
+                            <h2 class="section-title">Bienvenue chez Naturabio</h2>
+                            <div class="divider divider--left"></div>
+                            <p style="color: var(--color-text-light); line-height: 1.8; margin-bottom: var(--spacing-lg);">
+                                La Pharmacie Naturabio vous accueille au cœur de Nancy pour vous accompagner dans votre quête de bien-être naturel. Notre équipe de professionnels passionnés vous conseille avec expertise sur les solutions naturelles adaptées à vos besoins.
+                            </p>
+                            <p style="color: var(--color-text-light); line-height: 1.8;">
+                                Membre du groupement <strong>Anton & Willem</strong>, nous partageons les valeurs d'une pharmacie engagée pour une santé plus naturelle et responsable.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="section bg-secondary">
+                <div class="container">
+                    <div class="text-center mb-2xl">
+                        <h2 class="section-title">Pourquoi nous choisir ?</h2>
+                        <div class="divider"></div>
+                    </div>
+
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Conseil Expert</h3>
+                            <p class="feature-text">Une équipe formée aux médecines naturelles pour des conseils personnalisés et adaptés à vos besoins.</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                    <path d="M9 12l2 2 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Produits Naturels</h3>
+                            <p class="feature-text">Une sélection rigoureuse de produits biologiques et naturels des meilleures marques.</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="1" y="3" width="15" height="13"></rect>
+                                    <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                                    <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                                    <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Click & Collect</h3>
+                            <p class="feature-text">Commandez en ligne et récupérez vos produits en pharmacie sous 2 heures.</p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="feature-title">Programme Fidélité</h3>
+                            <p class="feature-text">Cumulez des points sur vos achats parapharmacie (hors médicaments) et bénéficiez d'avantages exclusifs.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Preview Section -->
+            <section class="section">
+                <div class="container">
+                    <div class="text-center mb-2xl">
+                        <h2 class="section-title">Nos produits phares</h2>
+                        <p class="section-subtitle">Découvrez notre sélection de produits naturels les plus appréciés</p>
+                        <div class="divider"></div>
+                    </div>
+
+                    <div class="products-grid" style="grid-template-columns: repeat(4, 1fr);">
+                        <!-- Product 1 - Radis Noir -->
+                        <article class="card product-card">
+                            <a href="boutique.html" class="card-image">
+                                <img src="assets/images/products/product-1.jpg" alt="Radis Noir Gélules">
+                            </a>
+                            <div class="card-body">
+                                <p class="product-brand">Anton & Willem</p>
+                                <h3 class="product-name">
+                                    <a href="boutique.html">Radis Noir Gélules</a>
+                                </h3>
+                                <p class="product-category">Digestion</p>
+                                <div>
+                                    <span class="product-price">12,45 €</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm btn-block add-to-cart mt-md">
+                                    Ajouter au panier
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- Product 2 - Charbon Végétal -->
+                        <article class="card product-card">
+                            <a href="boutique.html" class="card-image">
+                                <img src="assets/images/products/product-2.jpg" alt="Charbon Végétal Active Gélules">
+                            </a>
+                            <div class="card-body">
+                                <p class="product-brand">Anton & Willem</p>
+                                <h3 class="product-name">
+                                    <a href="boutique.html">Charbon Végétal Active</a>
+                                </h3>
+                                <p class="product-category">Digestion</p>
+                                <div>
+                                    <span class="product-price">22,00 €</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm btn-block add-to-cart mt-md">
+                                    Ajouter au panier
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- Product 3 - Lithothamne -->
+                        <article class="card product-card">
+                            <a href="boutique.html" class="card-image">
+                                <img src="assets/images/products/product-3.jpg" alt="Lithothamne Gélules">
+                            </a>
+                            <div class="card-body">
+                                <p class="product-brand">Anton & Willem</p>
+                                <h3 class="product-name">
+                                    <a href="boutique.html">Lithothamne Gélules</a>
+                                </h3>
+                                <p class="product-category">Digestion</p>
+                                <div>
+                                    <span class="product-price">25,90 €</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm btn-block add-to-cart mt-md">
+                                    Ajouter au panier
+                                </button>
+                            </div>
+                        </article>
+
+                        <!-- Product 4 - Radis Noir Artichaut -->
+                        <article class="card product-card">
+                            <a href="boutique.html" class="card-image">
+                                <img src="assets/images/products/product-4.jpg" alt="Radis Noir Artichaut Ampoules Bio">
+                                <div class="product-badges">
+                                    <span class="badge badge-bio">Bio</span>
+                                </div>
+                            </a>
+                            <div class="card-body">
+                                <p class="product-brand">Anton & Willem</p>
+                                <h3 class="product-name">
+                                    <a href="boutique.html">Radis Noir / Artichaut Ampoules</a>
+                                </h3>
+                                <p class="product-category">Digestion</p>
+                                <div>
+                                    <span class="product-price">15,95 €</span>
+                                </div>
+                                <button class="btn btn-primary btn-sm btn-block add-to-cart mt-md">
+                                    Ajouter au panier
+                                </button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="text-center mt-2xl">
+                        <a href="boutique.html" class="btn btn-secondary btn-lg">Voir tous les produits</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reviews Section -->
+            <section class="section reviews-section">
+                <div class="container">
+                    <div class="reviews-header">
+                        <div>
+                            <h2 class="section-title">Avis de nos clients</h2>
+                            <p class="section-subtitle">Ce que nos clients pensent de nous</p>
+                        </div>
+                        <div class="reviews-summary">
+                            <span class="reviews-score">4.8</span>
+                            <div class="reviews-stars">
+                                <div class="stars-rating">
+                                    <svg class="star-filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+                                    <svg class="star-filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+                                    <svg class="star-filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+                                    <svg class="star-filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+                                    <svg class="star-filled" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="currentColor"/></svg>
+                                </div>
+                                <span class="reviews-count">127 avis Google</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reviews-carousel">
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <p class="review-text">"Une équipe au top ! Les conseils sont toujours pertinents et personnalisés. Je ne changerais de pharmacie pour rien au monde."</p>
+                            <p class="review-author">Isabelle M.</p>
+                            <p class="review-date">Il y a 2 semaines</p>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <p class="review-text">"Excellente pharmacie spécialisée dans les produits naturels. Le personnel est très compétent et à l'écoute."</p>
+                            <p class="review-author">François D.</p>
+                            <p class="review-date">Il y a 3 semaines</p>
+                        </div>
+
+                        <div class="review-card">
+                            <div class="review-stars">
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                            </div>
+                            <p class="review-text">"J'ai trouvé des solutions naturelles pour mes problèmes de sommeil grâce à leurs conseils. Merci !"</p>
+                            <p class="review-author">Marie-Claire L.</p>
+                            <p class="review-date">Il y a 1 mois</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-xl">
+                        <a href="https://g.page/pharmacie-naturabio-nancy" target="_blank" rel="noopener" class="btn btn-secondary">
+                            Voir tous les avis
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="map-section">
+                <div class="map-container">
+                    <div class="map-iframe">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2635.8!2d6.18!3d48.69!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDQxJzI0LjAiTiA2wrAxMCc0OC4wIkU!5e0!3m2!1sfr!2sfr!4v1"
+                            width="100%"
+                            height="100%"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localisation Pharmacie Naturabio Nancy">
+                        </iframe>
+                    </div>
+                    <div class="map-info">
+                        <h3>Nous trouver</h3>
+                        <div class="map-info-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <p>
+                                <strong>Pharmacie Naturabio</strong><br>
+                                10 rue Raugraff<br>
+                                54000 Nancy
+                            </p>
+                        </div>
+                        <div class="map-info-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <p>03 83 35 XX XX</p>
+                        </div>
+                        <div class="map-info-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <p>
+                                Lun - Ven : 9h - 19h<br>
+                                Samedi : 9h - 13h
+                            </p>
+                        </div>
+                        <div style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+                        <a href="https://www.doctolib.fr/pharmacie/nancy/clarisse-brenger" target="_blank" rel="noopener" class="btn btn-white">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px;">
+                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                            </svg>
+                            Prendre RDV
+                        </a>
+                        <a href="https://www.google.com/maps/dir//10+rue+Raugraff,+54000+Nancy" target="_blank" rel="noopener" class="btn btn-white">
+                            Itinéraire
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 8px;">
+                                <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                            </svg>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <div class="placeholder-image" style="width: 50px; height: 50px; border-radius: 50%; background: var(--color-primary);"></div>
+                            <span class="footer-logo-text">Pharmacie Naturabio</span>
+                        </div>
+                        <p>Votre pharmacie naturelle à Nancy, spécialisée en naturopathie et aromathérapie. Membre du groupement Anton & Willem.</p>
+                        <div class="footer-social">
+                            <a href="https://www.instagram.com/pharmacie_naturabio" target="_blank" rel="noopener" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="https://www.facebook.com/pharmacienaturabio" target="_blank" rel="noopener" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="equipe.html">Notre équipe</a></li>
+                            <li><a href="boutique.html">Boutique</a></li>
+                            <li><a href="actualites.html">Actualités</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Catégories</h4>
+                        <ul>
+                            <li><a href="boutique.html?cat=aromatherapie">Aromathérapie</a></li>
+                            <li><a href="boutique.html?cat=complements">Compléments</a></li>
+                            <li><a href="boutique.html?cat=phytotherapie">Phytothérapie</a></li>
+                            <li><a href="boutique.html?cat=cosmetique">Cosmétique</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Horaires</h4>
+                        <div class="footer-hours">
+                            <p><strong>Lundi</strong></p>
+                            <p>14h - 19h</p>
+                            <p><strong>Mardi - Vendredi</strong></p>
+                            <p>9h - 19h</p>
+                            <p><strong>Samedi</strong></p>
+                            <p>9h - 17h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-certifications">
+                    <div class="footer-certification">
+                        <div class="placeholder-image" style="width: 50px; height: 50px; border-radius: var(--radius-md); background: rgba(255,255,255,0.1);"></div>
+                        <span>Ordre National des Pharmaciens</span>
+                    </div>
+                    <div class="footer-certification">
+                        <div class="placeholder-image" style="width: 50px; height: 50px; border-radius: var(--radius-md); background: rgba(255,255,255,0.1);"></div>
+                        <span>Groupement Anton & Willem</span>
+                    </div>
+                    <div class="footer-certification">
+                        <div class="placeholder-image" style="width: 50px; height: 50px; border-radius: var(--radius-md); background: rgba(255,255,255,0.1);"></div>
+                        <span>ARS Grand Est</span>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Pharmacie Naturabio. Tous droits réservés.</p>
+                    <div class="footer-links">
+                        <a href="mentions-legales.html">Mentions légales</a>
+                        <a href="mentions-legales.html#cgv">CGV</a>
+                        <a href="mentions-legales.html#confidentialite">Confidentialité</a>
+                        <a href="mentions-legales.html#cookies">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Toast Container -->
+    <style>
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 1rem 1.5rem;
+            background-color: var(--color-text);
+            color: var(--color-white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            z-index: 1000;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all var(--transition-base);
+        }
+        .toast.visible {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        .toast-success { background-color: var(--color-success); }
+        .toast-error { background-color: var(--color-error); }
+        .toast-info { background-color: var(--color-info); }
+        .toast-close {
+            background: none;
+            border: none;
+            color: inherit;
+            font-size: 1.25rem;
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        .toast-close:hover { opacity: 1; }
+    </style>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/marquee.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/hours.js"></script>
+</body>
+</html>

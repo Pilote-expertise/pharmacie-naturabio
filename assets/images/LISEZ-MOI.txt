@@ -1,0 +1,79 @@
+═══════════════════════════════════════════════════════════════════
+           GUIDE DES PHOTOS - PHARMACIE NATURABIO
+═══════════════════════════════════════════════════════════════════
+
+Placez vos photos dans les dossiers correspondants ci-dessous.
+Formats acceptés : JPG, PNG, WebP
+
+
+───────────────────────────────────────────────────────────────────
+📁 DOSSIER : team/
+───────────────────────────────────────────────────────────────────
+   Pour : Photos de l'équipe (portraits)
+
+   Fichiers attendus :
+   • clarisse-brenger.jpg    → Photo de Clarisse (directrice)
+   • marie-laurent.jpg       → Photo de Marie
+   • sophie-dubois.jpg       → Photo de Sophie
+   • thomas-martin.jpg       → Photo de Thomas
+   • julie-petit.jpg         → Photo de Julie
+
+   Dimensions recommandées : 400x500 pixels (portrait)
+   Conseils : Fond neutre, éclairage naturel, tenue professionnelle
+
+
+───────────────────────────────────────────────────────────────────
+📁 DOSSIER : pharmacy/
+───────────────────────────────────────────────────────────────────
+   Pour : Photos de la pharmacie
+
+   Fichiers suggérés :
+   • facade.jpg              → Façade extérieure
+   • interieur-1.jpg         → Vue intérieure générale
+   • interieur-2.jpg         → Espace conseil
+   • comptoir.jpg            → Comptoir/accueil
+   • rayons.jpg              → Rayons produits naturels
+
+   Dimensions recommandées : 1200x800 pixels (paysage)
+
+
+───────────────────────────────────────────────────────────────────
+📁 DOSSIER : hero/
+───────────────────────────────────────────────────────────────────
+   Pour : Grande image d'accueil du site
+
+   Fichiers suggérés :
+   • hero-accueil.jpg        → Image principale page d'accueil
+   • hero-boutique.jpg       → Image page boutique (optionnel)
+
+   Dimensions recommandées : 1920x1080 pixels (grand format)
+   Conseils : Image lumineuse, ambiance naturelle, plantes/huiles
+
+
+───────────────────────────────────────────────────────────────────
+📁 DOSSIER : products/
+───────────────────────────────────────────────────────────────────
+   Pour : Photos des produits vendus
+
+   Nommage suggéré :
+   • huile-lavande.jpg
+   • vitamine-d3.jpg
+   • tisane-sommeil.jpg
+   • etc.
+
+   Dimensions recommandées : 600x600 pixels (carré)
+   Conseils : Fond blanc ou neutre, produit centré, bonne lumière
+
+
+───────────────────────────────────────────────────────────────────
+📁 DOSSIER : articles/
+───────────────────────────────────────────────────────────────────
+   Pour : Images illustrant les articles du blog/actualités
+
+   Dimensions recommandées : 800x500 pixels (paysage)
+
+
+═══════════════════════════════════════════════════════════════════
+   Une fois vos photos ajoutées, prévenez-moi et je les
+   intégrerai automatiquement dans le site !
+═══════════════════════════════════════════════════════════════════

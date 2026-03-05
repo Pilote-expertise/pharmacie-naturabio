@@ -1,0 +1,205 @@
+{
+  "pharmacy": {
+    "name": "Pharmacie Naturabio",
+    "network": "Anton & Willem",
+    "address": {
+      "street": "10 rue Raugraff",
+      "postalCode": "54000",
+      "city": "Nancy",
+      "country": "France"
+    },
+    "phone": "03 83 35 XX XX",
+    "email": "contact@pharmacie-naturabio.fr",
+    "social": {
+      "instagram": "@pharmacie_naturabio"
+    },
+    "hours": {
+      "monday": {"open": "14:00", "close": "19:00"},
+      "tuesday": {"open": "09:00", "close": "19:00"},
+      "wednesday": {"open": "09:00", "close": "19:00"},
+      "thursday": {"open": "09:00", "close": "19:00"},
+      "friday": {"open": "09:00", "close": "19:00"},
+      "saturday": {"open": "09:00", "close": "17:00"},
+      "sunday": null
+    },
+    "description": "La Pharmacie Naturabio est une pharmacie spécialisée en naturopathie, membre du groupement Anton & Willem. Située au cœur de Nancy, nous vous accompagnons dans votre quête de bien-être naturel avec des conseils personnalisés et une sélection rigoureuse de produits naturels et biologiques.",
+    "values": [
+      {
+        "title": "Conseil Expert",
+        "description": "Une équipe formée aux médecines naturelles pour vous guider vers les solutions les plus adaptées à vos besoins."
+      },
+      {
+        "title": "Qualité",
+        "description": "Une sélection exigeante de produits naturels, biologiques et éco-responsables des meilleures marques."
+      },
+      {
+        "title": "Proximité",
+        "description": "Un accueil chaleureux et un accompagnement personnalisé dans un cadre apaisant."
+      },
+      {
+        "title": "Engagement",
+        "description": "Un engagement fort pour une santé durable et respectueuse de l'environnement."
+      }
+    ]
+  },
+  "director": {
+    "id": 1,
+    "firstName": "Clarisse",
+    "lastName": "BRENGER",
+    "role": "Pharmacien Titulaire",
+    "title": "Docteur en Pharmacie",
+    "specialties": ["Naturopathie", "Aromathérapie", "Phytothérapie"],
+    "diploma": "Docteur en Pharmacie - Université de Lorraine",
+    "certifications": [
+      "DU Phytothérapie et Aromathérapie",
+      "Formation Anton & Willem en Naturopathie"
+    ],
+    "bio": "Passionnée par les médecines naturelles depuis ses études de pharmacie, Clarisse a créé la Pharmacie Naturabio avec la volonté d'offrir une alternative naturelle et personnalisée à ses patients. Son approche holistique de la santé combine les connaissances pharmaceutiques traditionnelles avec les bienfaits des plantes et des huiles essentielles.",
+    "quote": "La nature nous offre des trésors pour notre santé. Mon rôle est de vous aider à les découvrir et à les utiliser en toute sécurité.",
+    "image": "clarisse-brenger.jpg"
+  },
+  "team": [
+    {
+      "id": 2,
+      "firstName": "Marie",
+      "lastName": "DUPONT",
+      "role": "Pharmacienne Adjointe",
+      "specialties": ["Aromathérapie", "Cosmétique naturelle"],
+      "bio": "Spécialiste en aromathérapie et cosmétique naturelle, Marie vous conseille pour créer vos routines beauté sur-mesure.",
+      "image": "marie-dupont.jpg"
+    },
+    {
+      "id": 3,
+      "firstName": "Sophie",
+      "lastName": "MARTIN",
+      "role": "Préparatrice en Pharmacie",
+      "specialties": ["Phytothérapie", "Compléments alimentaires"],
+      "bio": "Sophie vous accompagne dans le choix de vos compléments alimentaires et tisanes pour une santé au naturel.",
+      "image": "sophie-martin.jpg"
+    },
+    {
+      "id": 4,
+      "firstName": "Julie",
+      "lastName": "BERNARD",
+      "role": "Préparatrice en Pharmacie",
+      "specialties": ["Nutrition", "Micronutrition"],
+      "bio": "Formée en micronutrition, Julie vous guide vers une alimentation équilibrée et des solutions naturelles adaptées.",
+      "image": "julie-bernard.jpg"
+    },
+    {
+      "id": 5,
+      "firstName": "Emma",
+      "lastName": "PETIT",
+      "role": "Conseillère en Parapharmacie",
+      "specialties": ["Dermo-cosmétique", "Bien-être"],
+      "bio": "Emma vous fait découvrir les meilleurs produits de parapharmacie naturelle pour prendre soin de vous au quotidien.",
+      "image": "emma-petit.jpg"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Ordre des Pharmaciens",
+      "description": "Pharmacie inscrite à l'Ordre National des Pharmaciens",
+      "logo": "ordre-pharmaciens.png",
+      "link": "https://www.ordre.pharmacien.fr/"
+    },
+    {
+      "name": "Anton & Willem",
+      "description": "Membre du groupement de pharmacies naturelles Anton & Willem",
+      "logo": "anton-willem.png",
+      "link": "https://www.anton-willem.fr/"
+    },
+    {
+      "name": "ARS Grand Est",
+      "description": "Agence Régionale de Santé Grand Est",
+      "logo": "ars-grand-est.png",
+      "link": "https://www.grand-est.ars.sante.fr/"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "title": "Renforcez votre immunité naturellement cet hiver",
+      "category": "Conseils",
+      "date": "2024-01-15",
+      "excerpt": "Découvrez nos conseils et nos produits phares pour traverser l'hiver en pleine forme grâce aux solutions naturelles.",
+      "image": "article-immunite.jpg",
+      "content": "L'hiver est une période où notre système immunitaire est mis à rude épreuve..."
+    },
+    {
+      "id": 2,
+      "title": "Les huiles essentielles indispensables pour débuter",
+      "category": "Aromathérapie",
+      "date": "2024-01-08",
+      "excerpt": "Vous souhaitez vous initier à l'aromathérapie ? Voici notre sélection des 5 huiles essentielles incontournables.",
+      "image": "article-he-debutant.jpg",
+      "content": "L'aromathérapie est une pratique millénaire qui utilise les extraits aromatiques des plantes..."
+    },
+    {
+      "id": 3,
+      "title": "Atelier découverte : Créez votre sérum visage",
+      "category": "Événements",
+      "date": "2024-01-20",
+      "excerpt": "Rejoignez-nous pour un atelier pratique où vous apprendrez à formuler votre propre sérum visage naturel.",
+      "image": "article-atelier.jpg",
+      "content": "Nous organisons régulièrement des ateliers pour vous initier à la cosmétique naturelle..."
+    },
+    {
+      "id": 4,
+      "title": "Gérer le stress avec les plantes adaptogènes",
+      "category": "Phytothérapie",
+      "date": "2024-01-03",
+      "excerpt": "Ashwagandha, Rhodiola, Ginseng... Découvrez comment ces plantes peuvent vous aider à mieux gérer le stress.",
+      "image": "article-adaptogenes.jpg",
+      "content": "Les plantes adaptogènes sont utilisées depuis des millénaires dans les médecines traditionnelles..."
+    },
+    {
+      "id": 5,
+      "title": "Nouveautés du mois : Notre sélection de janvier",
+      "category": "Nouveautés",
+      "date": "2024-01-10",
+      "excerpt": "Découvrez les nouveaux produits arrivés ce mois-ci dans votre pharmacie Naturabio.",
+      "image": "article-nouveautes.jpg",
+      "content": "Chaque mois, nous enrichissons notre sélection avec de nouvelles références soigneusement choisies..."
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Isabelle M.",
+      "rating": 5,
+      "date": "2024-01-12",
+      "text": "Une équipe au top ! Les conseils sont toujours pertinents et personnalisés. Je ne changerais de pharmacie pour rien au monde.",
+      "source": "Google"
+    },
+    {
+      "id": 2,
+      "author": "François D.",
+      "rating": 5,
+      "date": "2024-01-08",
+      "text": "Excellente pharmacie spécialisée dans les produits naturels. Le personnel est très compétent et à l'écoute.",
+      "source": "Google"
+    },
+    {
+      "id": 3,
+      "author": "Marie-Claire L.",
+      "rating": 5,
+      "date": "2024-01-05",
+      "text": "J'ai trouvé des solutions naturelles pour mes problèmes de sommeil grâce à leurs conseils. Merci !",
+      "source": "Google"
+    },
+    {
+      "id": 4,
+      "author": "Philippe R.",
+      "rating": 4,
+      "date": "2023-12-28",
+      "text": "Très bonne sélection de produits bio et naturels. L'équipe prend le temps d'expliquer chaque produit.",
+      "source": "Google"
+    }
+  ],
+  "googleRating": {
+    "average": 4.8,
+    "totalReviews": 127,
+    "url": "https://g.page/pharmacie-naturabio-nancy"
+  }
+}
